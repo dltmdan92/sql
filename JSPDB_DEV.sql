@@ -18,6 +18,8 @@ insert into book (id, title, author, price, qty) values (
 (select nvl(max(id) + 1, 1) from book), 'HTML5', '±æ¹þ', 20000, 50
 );
 
+
+
 commit;
 
 SELECT  *
